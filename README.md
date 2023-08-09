@@ -1,7 +1,7 @@
 # thematic-analysis-helper
 > An auxiliary tool for thematic analysis in qualitative research using data visualisation in Dash, NLP model and topic modeling.
 > 
-> Developed as a final project for the University course (Programming for Digital Humanities, scope: 15 ECTS, 2019-2020)
+> Developed as a final project for the [University course](https://lnu.se/en/course/programming-for-digital-humanities/vaxjo-distance-exchange-part-time-autumn/) (Programming for Digital Humanities, scope: 15 ECTS, 2019-2020)
 
 ## Table of contents
 * [General info](#general-info)
@@ -34,9 +34,20 @@ Within this case study, the tool will:
 + use the same data to train simple machine learning model and visualize recurring topics that can be seen in each child writing.
 
 ### Other resources that will explain you more about the project
-Doc, vid, proposal
+To explore more:
++ read [the Final Project Report](link)
++ watch the [vid](link) showing the ouput of scripts' runs
++ read about the early version of the project in [Project Proposal](link)
 
 ## Illustrations
+
+Example visualisations:
+
++ Sentiment’s polarity of each post is presented in bubble scatterplot (where size=polarity), with post’s date, post’s title and polarity on the hover:
+
+(fig1)
+Fig1. Bubble graph of post’s polarity in 2016 at jakes-bones.com.
+  
 
 ## Technologies
 
