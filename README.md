@@ -36,7 +36,7 @@ Within this case study, the tool will:
 ### Other resources that will explain you more about the project
 To explore more:
 + read [the Final Project Report](link)
-+ watch the [vid](link) showing the ouput of scripts' runs
++ watch the [Youtube vid](https://youtu.be/XXiXq8odXgM) showing the ouput of scripts' runs
 + read about the early version of the project in [Project Proposal](link)
 
 ## Illustrations
