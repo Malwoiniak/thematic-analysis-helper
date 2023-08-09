@@ -53,7 +53,7 @@ Example visualisations:
 
 **Wordcloud of frequency distribution of 25 most frequent words**
 
-![fig3](img/img3.png)
+![fig6](img/img6.png)
 
 **Annotated heatmap of the lengths of first 100 sentences in text with sentiment’s diagnosis**
 
@@ -67,16 +67,16 @@ Example visualisations:
 
 ## Technologies
 
-+NLTK
-+Gensim
-+pyLDAvis
-+IPython
-+BeautifulSoup4 4.7.1
-+Pandas
-+TextBlob
-+Numpy
-+Dash
-+Plotly
+* NLTK
+* Gensim
+* pyLDAvis
+* IPython
+* BeautifulSoup4 4.7.1
+* Pandas
+* TextBlob
+* Numpy
+* Dash
+* Plotly
 
 ## Setup
 
