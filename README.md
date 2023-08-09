@@ -35,39 +35,55 @@ Within this case study, the tool will:
 
 ### Other resources that will explain you more about the project
 To explore more:
-+ read [the Final Project Report](link)
++ read [the Final Project Report](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/Malwina_Kotowicz_final_project.pdf)
 + watch the [Youtube vid](https://youtu.be/XXiXq8odXgM) showing the ouput of scripts' runs
-+ read about the early version of the project in [Project Proposal](link)
++ read about the early version of the project in [Project Proposal]([link](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/kotowicz_final_project_proposal.pdf))
 
 ## Illustrations
 
 Example visualisations:
 
-+ Sentiment’s polarity of each post is presented in bubble scatterplot (where size=polarity), with post’s date, post’s title and polarity on the hover:
+**Bubble graph of post’s polarity in 2016 at jakes-bones.com**
 
-(fig1)
-Fig1. Bubble graph of post’s polarity in 2016 at jakes-bones.com.
+![fig1](img/img1.png)
+
+**Bar chart of frequency distribution of 25 most frequent words in 2016 at jakes-bones.com**
+
+![fig2](img/img2.png)
+
+**Wordcloud of frequency distribution of 25 most frequent words**
+
+![fig3](img/img3.png)
+
+**Annotated heatmap of the lengths of first 100 sentences in text with sentiment’s diagnosis**
+
+![fig4](img/img4.png)
+
+**LDA topic modeling for libdemchild.com, showing topic 11 with tokens: [poverty, million, children, UK, living, work (..)]**
+
+![fig5](img/img5.png)
+
   
 
 ## Technologies
 
-NLTK
-Gensim
-pyLDAvis
-IPython
-BeautifulSoup4 4.7.1
-Pandas
-TextBlob
-Numpy
-Dash
-Plotly
++NLTK
++Gensim
++pyLDAvis
++IPython
++BeautifulSoup4 4.7.1
++Pandas
++TextBlob
++Numpy
++Dash
++Plotly
 
 ## Setup
 
 ## References
-[1] Virginia Braun & Victoria Clarke (2006) Using thematic analysis in psychology, Qualitative Research in Psychology, 3:2, 77-101
-[2] Sue Gott (2015). Behaviour Diaries: An Assessment Tool for Supporting Children with Behavioural Difficulties, Speechmark Publishing
-[3] Tiina Lämsä, Anna Rönkä, Pirjo-Liisa Poikonen & Kaisa Malinen (2012) The child diary as a research tool, Early Child Development and Care, 182:3-4, 469-486
++ [1] Virginia Braun & Victoria Clarke (2006) Using thematic analysis in psychology, Qualitative Research in Psychology, 3:2, 77-101
++ [2] Sue Gott (2015). Behaviour Diaries: An Assessment Tool for Supporting Children with Behavioural Difficulties, Speechmark Publishing
++ [3] Tiina Lämsä, Anna Rönkä, Pirjo-Liisa Poikonen & Kaisa Malinen (2012) The child diary as a research tool, Early Child Development and Care, 182:3-4, 469-486
 
 
 
