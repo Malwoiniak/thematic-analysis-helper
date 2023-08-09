@@ -57,7 +57,7 @@ Example visualisations:
 
 **Annotated heatmap of the lengths of first 100 sentences in text with sentiment’s diagnosis**
 
-![fig4](img/img4.png)
+![fig3](img/img3.png)
 
 **LDA topic modeling for libdemchild.com, showing topic 11 with tokens: [poverty, million, children, UK, living, work (..)]**
 
