@@ -1,7 +1,7 @@
 # thematic-analysis-helper
 > An auxiliary tool for thematic analysis in qualitative research using data visualisation in Dash, NLP model and topic modeling.
 > 
-> Developed as a final project for the University course (Programming for Digital Humanities, scope: 15 ECTS)
+> Developed as a final project for the University course (Programming for Digital Humanities, scope: 15 ECTS, 2019-2020)
 
 ## Table of contents
 * [General info](#general-info)
@@ -35,9 +35,28 @@ Within this case study, the tool will:
 
 ### Other resources that will explain you more about the project
 Doc, vid, proposal
+
 ## Illustrations
 
+## Technologies
 
+NLTK
+Gensim
+pyLDAvis
+IPython
+BeautifulSoup4 4.7.1
+Pandas
+TextBlob
+Numpy
+Dash
+Plotly
+
+## Setup
+
+## References
+[1] Virginia Braun & Victoria Clarke (2006) Using thematic analysis in psychology, Qualitative Research in Psychology, 3:2, 77-101
+[2] Sue Gott (2015). Behaviour Diaries: An Assessment Tool for Supporting Children with Behavioural Difficulties, Speechmark Publishing
+[3] Tiina Lämsä, Anna Rönkä, Pirjo-Liisa Poikonen & Kaisa Malinen (2012) The child diary as a research tool, Early Child Development and Care, 182:3-4, 469-486
 
 
 
