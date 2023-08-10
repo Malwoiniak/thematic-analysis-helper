@@ -63,7 +63,7 @@ Per blog:
   
 * `3_blogname_dash.py3` for reading content of previously saved files, converting them to dataframes, plotting the data and allowing interactivity by dash @app.callback functions
 
-* `4_ML_model_blogname.py3` for Word2Vec NLP model training, finding synonyms of words, performing mathematical operations on words
+* `4_ML_model_blogname.py3` for Word2Vec NLP model training, finding synonyms of words, performing mathematical operations on words. Output: `blogname.txt`: list of sentences from`summary` column from all (concatenated) scraped data. This is an input for `5_LDA_topic_modeling_blogname.py3` script.
   
 * `5_LDA_topic_modeling_blogname.py3` for identifying topics in the sets of text in documents
 
