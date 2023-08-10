@@ -5,9 +5,9 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Illustrations](#illustrations)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Illustrations](#illustrations)
 * [Contact](#contact)
 * [References](#references)
 
@@ -39,31 +39,6 @@ To explore more:
 + watch the [Youtube vid](https://youtu.be/XXiXq8odXgM) showing the ouput of scripts' runs
 + read about the early version of the project in [Project Proposal](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/kotowicz_final_project_proposal.pdf)
 
-## Illustrations
-
-Example visualisations:
-
-**Bubble graph of post’s polarity in 2016 at jakes-bones.com**
-
-![fig1](img/img1.png)
-
-**Bar chart of frequency distribution of 25 most frequent words in 2016 at jakes-bones.com**
-
-![fig2](img/img2.png)
-
-**Wordcloud of frequency distribution of 25 most frequent words**
-
-![fig6](img/img6.png)
-
-**Annotated heatmap of the lengths of first 100 sentences in text with sentiment’s diagnosis**
-
-![fig3](img/img3.png)
-
-**LDA topic modeling for libdemchild.com, showing topic 11 with tokens: [poverty, million, children, UK, living, work (..)]**
-
-![fig5](img/img5.png)
-
-
 ## Technologies
 
 * NLTK 3.7
@@ -79,12 +54,61 @@ Example visualisations:
 
 ## Setup
 
+### How is the code organised?
+
+Per blog:
+* `1_blogname_scrape.py3` for scraping the content in defined years of blogging activity and saving it to `blogname_scrape_year.csv` file (`date`, `post’s title`, `post’s content`)
+  
+* `2_blogname_read.py3` for sentiment analysis of post’s content and saving it to `blogname_year_headline_polarity.py3` (`headline`, `sentiment’s polarity`, `polarity assessment [neu, pos, neg]`, `date in datetime format`)
+  
+* `3_blogname_dash.py3` for reading content of previously saved files, converting them to dataframes, plotting the data and allowing interactivity by dash @app.callback functions
+
+* `4_ML_model_blogname.py3` for Word2Vec NLP model training, finding synonyms of words, performing mathematical operations on words
+  
+* `5_LDA_topic_modeling_blogname.py3` for identifying topics in the sets of text in documents
+
+## Illustrations
+
+Example visualisations:
+
+**Bubble graph of post’s polarity in 2016 at jakes-bones.com**
+
+* Sentiment’s polarity of each post is presented in bubble scatterplot (where size=polarity), with post’s date, post’s title and polarity on the hover
+
+![fig1](img/img1.png)
+
+**Bar chart of frequency distribution of 25 most frequent words in 2016 at jakes-bones.com**
+
+* Bar chart of frequency distribution of 25 most frequent words in a given year with word and its frequency on a hover
+
+![fig2](img/img2.png)
+
+**Wordcloud of frequency distribution of 25 most frequent words**
+
+* Wordcloud of frequency distribution of 25 most frequent words in given year, with word and its frequency on hover
+
+![fig6](img/img6.png)
+
+**Annotated heatmap of the lengths of first 100 sentences in text with sentiment’s diagnosis**
+
+* Annotated heatmap of the lengths of first 100 sentences in text with sentiment’s diagnosis. On the hover: length and polarity of a sentence
+
+![fig3](img/img3.png)
+
+**LDA topic modeling for libdemchild.com, showing topic 11 with tokens: [poverty, million, children, UK, living, work (..)]**
+
+LDA topic visualization with adjustable alpha α provides an overview of topics that appear in total blog content (in given years)
+
+![fig5](img/img5.png)
+
+See [the Final Project Report](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/Malwina_Kotowicz_final_project.pdf) for the explanation on all the graphs.
+
+## Contact
+
+Project created by m_kotowicz@hotmail.com, feel free to contact me!
+
 ## References
 + [1] Virginia Braun & Victoria Clarke (2006) Using thematic analysis in psychology, Qualitative Research in Psychology, 3:2, 77-101
 + [2] Sue Gott (2015). Behaviour Diaries: An Assessment Tool for Supporting Children with Behavioural Difficulties, Speechmark Publishing
 + [3] Tiina Lämsä, Anna Rönkä, Pirjo-Liisa Poikonen & Kaisa Malinen (2012) The child diary as a research tool, Early Child Development and Care, 182:3-4, 469-486
-
-
-
-
 
