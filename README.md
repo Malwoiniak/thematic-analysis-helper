@@ -63,20 +63,19 @@ Example visualisations:
 
 ![fig5](img/img5.png)
 
-  
 
 ## Technologies
 
-* NLTK
-* Gensim
-* pyLDAvis
-* IPython
+* NLTK 3.7
+* Gensim 4.3.1
+* pyLDAvis 3.4.0
+* IPython 7.29.0
 * BeautifulSoup4 4.7.1
-* Pandas
-* TextBlob
-* Numpy
-* Dash
-* Plotly
+* Pandas 1.3.4
+* TextBlob 0.17.1
+* Numpy 1.22.4
+* Dash 1.19.0
+* Plotly 4.11.0
 
 ## Setup
 
