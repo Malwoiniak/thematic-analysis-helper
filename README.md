@@ -69,6 +69,8 @@ Per blog:
 
 You should run the code in this order. All necessary dirs will be created by scripts. Alternatively, you can run a juptyer notebook `ML_model_topic_modeling_blogname.ipynb` and skip scripts `4_` and `5_`, as it combines those two.
 
+Note that there is also a `stopwordlist.txt` file in each blog's folder (words to be excluded from analysis).
+
 ## Illustrations
 
 Example visualisations:
