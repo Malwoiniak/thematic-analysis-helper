@@ -37,7 +37,7 @@ Within this case study, the tool will:
 To explore more:
 + read [the Final Project Report](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/Malwina_Kotowicz_final_project.pdf)
 + watch the [Youtube vid](https://youtu.be/XXiXq8odXgM) showing the ouput of scripts' runs
-+ read about the early version of the project in [Project Proposal]([link](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/kotowicz_final_project_proposal.pdf))
++ read about the early version of the project in [Project Proposal](https://github.com/Malwoiniak/thematic-analysis-helper/blob/8550e6c75f818030eec1f8a4b4faffaaf9c8cf1e/resources/kotowicz_final_project_proposal.pdf)
 
 ## Illustrations
 
